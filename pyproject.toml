@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "github-actions-demo"
+version = "0.1.0"
+description = "Demonstration of GitHub Actions for FastAPI app"
+authors = ["congdh <congdh2812@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.62.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
